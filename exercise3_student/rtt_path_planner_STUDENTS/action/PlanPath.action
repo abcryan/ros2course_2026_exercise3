@@ -1,0 +1,10 @@
+# Goal
+geometry_msgs/PoseStamped start
+geometry_msgs/PoseStamped end
+---
+# Result
+nav_msgs/Path path
+---
+# Feedback
+nav_msgs/Path current_path
+float32 percent_complete

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rrt_path_planner</name>
+  <version>0.0.1</version>
+  <description>The rrt_path_planner package</description>
+  
+  <author email="chencha@student.ethz.ch">Changan Chen</author>
+  <maintainer email="chencha@student.ethz.ch">Changan Chen</maintainer>
+  <license>TODO: License declaration</license>
+
+
+  <!-- Dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  
+  <!-- Action message dependencies -->
+  <depend>rosidl_default_generators</depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  
+  <!-- Export interfaces -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

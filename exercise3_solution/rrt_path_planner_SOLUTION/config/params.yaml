@@ -1,0 +1,8 @@
+/rrt_path_planner_client:
+  ros__parameters:
+    start:
+      x: 0.0
+      y: 0.0
+    end:
+      x: 15.0
+      y: 10.0
